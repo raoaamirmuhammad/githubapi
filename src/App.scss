@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background: whitesmoke;
+  padding: 0px 250px;
+  a {
+    text-decoration: none;
+  }
+
+  .header {
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .search {
+    width: 100%;
+    line-height: 30px;
+    background: lightgray;
+  }
+
+  .gist-info {
+    text-align: left;
+    display: flex;
+    height: 75px;
+
+    &.odd {
+      background: white ;
+    }
+
+    img {
+      height: 20px;
+      border-radius: 50%;
+      padding: 10px;
+    }
+
+    .languages {
+      display: flex;
+
+      .language {
+        margin: 0px 5px;
+        background: yellowgreen;
+      }
+    }
+
+  }
+}
